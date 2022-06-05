@@ -1,0 +1,39 @@
+Mathe JAVA program "OlvassEl!" fájl
+
+Név: Mathe (math exercise)
+Verzió: 1.0
+Dátum: 2022.06.05.
+Készítette: Lőrincz Zsolt
+E-mail: lorinczzsolt79@gmail.com
+
+Program leírása: Egy egyszerű parancssori JAVA program, ami a megadott adatok alapján területet és kerületet számít, a menü alapján választott alakzathoz.
+
+Futtatás előfeltétele:
+	- JAVA virtuális futtatási környezet
+	- JAVA letöltése Windows-hoz innen: https://www.java.com/download/ie_manual.jsp
+	- Letöltések mappa: letöltött fájlon dupla klikk vagy jobb klikk és megnyitás
+	- (A telepítéséhez lehet, hogy rendszergazdai jogosultság szükséges.)
+	- Install gomb --> klikk
+
+Futtatás:
+	- Windows Parancssor indítása
+	- belépés a programot tartalmazó mappába (például cd c:\user\felhasználónév\Documents)
+	- ki kell adni a következő parancsot: java -jar mathe.jar
+	
+Kezelés:
+	- A menü alapján választható egy alakzat száma.
+	- A választható alakzatok:
+		- négyzet, szükséges adat: 1 oldal;
+		- téglalap, szükséges adat: 2 oldal;
+		- rombusz, szükséges adat: 1 oldal és 1 magasság;
+		- paralelogramma, szükséges adat: 2 oldal és 1 magasság;
+		- deltoid, szükséges adat: 2 oldal és 1 átló (a tükör szimmetrikus).
+	- A helyes adatbeviteli formátum:   szám(,szám)+szóköz+mértékegység. Például 3 cm vagy 4,5 dm vagy 100 m.
+	- A megadható mértékegységek:   mm, cm, dm, m, dkm, hm, km
+	- Kilépés: 6 + Enter
+
+Teszt javaslat:
+	- a deltoidnak a legbonyolultabb a logikája, ehhez
+		tesztadatnak az "a" oldal = 3 m, "b" oldal 4 m, átló 5 m adatokat javaslom.
+		Így az eredmény a kerületnél: 14 m, míg a területnél: 12 m2 lesz.
+		Ez egy Pitagoraszi szám hármas. Egy olyan deltoid, ami 2 derékszögű háromszög, az átlójuknál egybeillesztve.
